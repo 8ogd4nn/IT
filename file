@@ -1,2 +1,11 @@
 print("Hello World")
 print("Hello")
+x = True
+while x == True:
+    question = input("Is Djuradj a little cute twink")
+    if question == "yes":
+        print("You're goddamn right.")
+        x = False
+    if question == "no":
+        print("Try again")
+        
