@@ -11,7 +11,7 @@ f = cursor.execute("Select * from test")
 print(f)
 x = True
 while x == True:
-    question = input("Is Djuradj a little cute twink")
+    question = input("Is Djuradj a little cute twink.\n Your Answer")
     if question == "yes":
         print("You're goddamn right.")
         x = False
