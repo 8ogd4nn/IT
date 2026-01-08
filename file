@@ -1,5 +1,14 @@
-print("Hello World")
-print("Hello")
+import mysql.connector
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  password="Gang100Propaganda",
+  database = "itprojektschema"
+)
+cursor = mydb.cursor()
+
+f = cursor.execute("Select * from test")
+print(f)
 x = True
 while x == True:
     question = input("Is Djuradj a little cute twink")
